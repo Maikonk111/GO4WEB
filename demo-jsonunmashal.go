@@ -15,10 +15,10 @@ type employees struct {
 
 func main() {
 	e := employees{}
-	err := json.Unmarshal([]byte(`{"ID":101,"Employee":"Sasiprapha","Tel":"098121112"}`), &e)
+	err := json.Unmarshal([]byte(`{"ID":101,"Employee":"Sasiprapha","Tel":"0981285319"}`), &e)
 
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println(e.EmployeeName)
+	fmt.Println(e.Tel)
 }
