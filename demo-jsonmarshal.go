@@ -6,8 +6,9 @@ import (
 )
 
 type employee struct {
+	//อ่านเฉพาะพิมพ์ใหญ่
 	ID           int
-	employeeName string
+	EmployeeName string
 	Tel          string
 }
 
